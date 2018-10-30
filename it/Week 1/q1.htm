@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> Login page </title> 
+<style> 
+body 
+{ 
+	background-color: lightblue; 
+} 
+h1 
+{ 
+	color: white;
+	text-align: center; 
+} 
+p 
+{ 
+	font-family: verdana; 
+	font-size: 20px; 
+} 
+</style>
+
+
+</head>
+
+<body>
+<h1 id="heading" onClick="idPos(this.id)"> Validate Credentials</h1>
+<form name="login">
+Username<input type="text" id="user" onClick="idPos(this.id)" name="userid"/>
+Password<input type="password" id="password" onClick="idPos(this.id)" name="pswrd"/>
+
+<input type="button" id="but" onClick="idPos(this.id)" value="Login"/>
+<input type="reset" id="res" onClick="idPos(this.id)" value="Cancel"/>
+
+</form>
+
+<script>
+
+function idPos(id)
+{
+	var obj=document.getElementById(id);
+	var rect1=obj.getBoundingClientRect();
+	alert("top : "+rect1.top+"\nleft : "+rect1.left);
+
+}
+</script>
+
+</body>
+</html>

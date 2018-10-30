@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> Login page </title> 
+<style> 
+body 
+{ 
+	background-color: lightblue; 
+} 
+h1 
+{ 
+	color: black;
+	text-align: center; 
+} 
+p 
+{ 
+	font-family: verdana; 
+	font-size: 20px; 
+} 
+</style>
+
+
+</head>
+
+<body>
+<h1 id="hour"></h1>
+<h1 id="text"></h1>
+
+
+<script>
+
+	function s(){
+	var d= new Date();
+	var obj=document.getElementById("hour");
+	var h=d.getHours();
+	obj.innerHTML = d;
+	var obj2=document.getElementById("text");
+	if(h<12)
+	obj2.innerHTML = "Good Morning";
+	else
+	obj2.innerHTML = "Good Afternoon";
+	}
+
+setInterval(s,10);
+	
+		
+
+	
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> Login page </title> 
+<style> 
+body 
+{ 
+	background-color: lightblue; 
+} 
+h1 
+{ 
+	color: white;
+	text-align: center; 
+} 
+p 
+{ 
+	font-family: verdana; 
+	font-size: 20px; 
+} 
+</style>
+
+<script>
+function check(form)
+{
+	if(form.userid.value=="ankush" && form.pswrd.value=="qwerty")
+	{
+		window.open("https://www.google.com","blank");
+	}
+	else
+	{
+		alert("error pasword or username");
+	}
+}
+</script>
+</head>
+
+<body>
+<h1> Validate Credentials</h1>
+<form name="login">
+Username<input type="text" name="userid"/>
+Password<input type="password" name="pswrd"/>
+
+<input type="button" onClick="check(this.form)" value="Login"/>
+<input type="reset" value="Cancel"/>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+D:\150905040\week3\q1\q1\bin\Debug\q1.exe.config
+D:\150905040\week3\q1\q1\bin\Debug\q1.exe
+D:\150905040\week3\q1\q1\bin\Debug\q1.pdb
+D:\150905040\week3\q1\q1\obj\Debug\q1.csprojResolveAssemblyReference.cache
+D:\150905040\week3\q1\q1\obj\Debug\q1.exe
+D:\150905040\week3\q1\q1\obj\Debug\q1.pdb
