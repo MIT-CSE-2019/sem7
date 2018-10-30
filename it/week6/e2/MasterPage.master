@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        Heading<br />
+        <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server">First Page</asp:HyperLink>
+        
+        <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Default2.aspx" runat="server">Second Page</asp:HyperLink>
+        <br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
