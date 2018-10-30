@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+<canvas id="myCanvas" width="200" height="700" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+</canvas> 
+<script> 
+	var c = document.getElementById("myCanvas"); 
+	var ctx = c.getContext("2d"); 
+	var i=50;
+	var f=0;
+	function cir()	 {
+
+		ctx.clearRect(0, 0, c.width, c.height);
+		ctx.beginPath();
+		ctx.arc(95,i,40,0,2*Math.PI); 
+		ctx.fillStyle = "#ff0000";
+		    ctx.fill();
+		
+		if(f==1) i-=2;
+		if(f==0) i+=2;
+		if(i>600) 
+			f=1;
+		if(i<50) f=0;
+	}
+
+	setInterval(cir,1);	 
+</script> 
+</body>
+</html>

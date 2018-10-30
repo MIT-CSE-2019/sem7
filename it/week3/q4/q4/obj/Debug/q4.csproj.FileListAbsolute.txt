@@ -1,0 +1,5 @@
+D:\150905040\week3\q4\q4\bin\Debug\q4.exe.config
+D:\150905040\week3\q4\q4\bin\Debug\q4.exe
+D:\150905040\week3\q4\q4\bin\Debug\q4.pdb
+D:\150905040\week3\q4\q4\obj\Debug\q4.exe
+D:\150905040\week3\q4\q4\obj\Debug\q4.pdb
